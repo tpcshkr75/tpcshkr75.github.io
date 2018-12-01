@@ -81,3 +81,12 @@ label {
 .select-menu {
 	align-content: center;
 }
+
+#refreshButtonDiv {
+	display: none;
+    margin-left: auto;
+    margin-right: auto;
+	color: red;
+	padding-top: 10%;
+	padding-left: 30%
+}

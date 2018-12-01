@@ -5,6 +5,15 @@ $(document).ready(function() {
 	$(function() {
 		$('select').selectmenu();
 	});
+	
+	$(function() {
+		$('#refreshButton').button();
+	});
+	
+	$('#refreshButton').click(function() {
+    	location.reload();
+	});
+
 
 // When the Select Platform option is changed, hide any shown divs for other platforms and show the div with the select menu for the appropriate div
 	
@@ -168,7 +177,10 @@ $(document).ready(function() {
 			
 			
   			});
-				
+		
+		$('#refreshButtonDiv').show();
+		$('.select-menu').hide();
+		
 	});
 	
 });
