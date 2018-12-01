@@ -1,0 +1,108 @@
+{
+  "platform" : {
+    "facebook" : {
+      "format" :   {	
+        "carousel" : {
+          "copyLimit" : "1-2 sentences",
+          "size" : "1200x1200 pixels",
+          "restrictions" : "Less than 20% text in images",
+		  "notes" : "Carousels can contain 3-10 images. If including a video as a slide in the carousel, add black bars to top and bottom of video using Adobe Premiere Pro to force a 1:1 ratio."
+        },
+        "singleimage" : {
+          "copyLimit" : "1-2 sentences",
+          "size" : "1200x628 pixels",
+		  "restrictions" : "Less than 20% text in image",
+		  "notes" : "none"
+        },
+        "video" : {
+          "copyLimit" : "1-2 sentences",
+          "size" : "16:9 ratio for standalone video or 1:1 ratio for Carousels",
+		  "restrictions" : "60 seconds or less",
+		  "notes" : "Add black bars to top and bottom of video using Adobe Premiere Pro to force a 1:1 ratio if needed for Carousel Ad."
+        }
+      }
+    },
+    "instagram" : {
+      "format" :   {
+		"carousel" : {
+          "copyLimit" : "1-2 sentences",
+          "size" : "1200x1200 pixels",
+		  "restrictions" : "Less than 20% text in images",
+		  "notes" : "Carousels can contain 3-10 images. If including a video as a slide in the carousel, add black bars to top and bottom of video using Adobe Premiere Pro to force a 1:1 ratio."
+      },
+        "singleimage" : {
+          "copyLimit" : "1-2 sentences",
+		  "size" : "1200x628 pixels",
+          "restrictions" : "Less than 20% text in image",
+          "notes" : "none"
+      },
+		 "vertical" : {
+          "copyLimit" : "N/A. Copy cannot be included when using veritical image format.",
+		  "size" : "1080x1920 pixels",
+          "restrictions" : "Less than 20% text in image",
+          "notes" : "Please leave plenty of space at the top and bottom of the image to accomodate the Instagram handle and the Call-to-Action."
+      }, 
+        "video" : {
+          "copyLimit" : "1-2 sentences",
+          "size" : "16:9 ratio for standalone video or 1:1 ratio for Carousels",
+		  "restrictions" : "60 seconds or less",
+		  "notes" : "Add black bars to top and bottom of video using Adobe Premiere Pro to force a 1:1 ratio if needed for Carousel Ad."
+      }
+    }
+  },
+	"linkedin" : {
+      "format" :   {
+		"carousel" : {
+          "copyLimit" : "150 characters max",
+          "size" : "1200x1200 pixels",
+	      "restrictions" : "You can include text in images on LinkedIn ads, if you wish.",
+	      "notes" : "Carousels can contain 3-10 images. Carousels on LinkedIn cannot include videos."
+      },
+        "singleimage" : {
+          "copyLimit" : "1-2 sentences",
+		  "size" : "1200x628 pixels",
+          "restrictions" : "You can include text in images on LinkedIn ads, if you wish.",
+          "notes" : "none"
+      },
+        "video" : {
+          "copyLimit" : "1-2 sentences",
+          "size" : "16:9 for standalone video or 1:1 for Carousels",
+		  "restrictions" : "30 minutes max. Must be in MP4 format.",
+		  "notes" : "N/A"
+      }
+    }
+  },
+	"google" : {
+      "format" :  {
+		"banner" : {
+          "copyLimit" : "300x250, 336x280, 728x90, 300x600, 970x90, 320x100",
+          "size" : "150kb max file size each. If they are larger than that, you will have to remake them.",
+	      "restrictions" : "Banners can be animated, but if they are, they must be 30 seconds or less, loops must stop after 30 seconds and GIF ads must be slower than 5 FPS.",
+	      "notes" : "Please be sure to include an appropriate Call-to-Action."
+      },
+        "video" : {
+          "copyLimit" : "N/A",
+		  "size" : "30-60 seconds",
+          "restrictions" : "N/A",
+          "notes" : "Please also create a 300x60 companion banner which will show next to the video after the ad finishes. This image should be less than 150kb."
+      },
+        "search" : {
+          "copyLimit" : "30 character max headline. 30 character max sub-headline. 80 character max description.",
+          "size" : "N/A",
+		  "restrictions" : "N/A",
+		  "notes" : "N/A"
+      }
+    }
+  },
+	"twitter" : {
+      "format" :  {
+        "singleimage" : {
+          "copyLimit" : "110 characters max to accomodate the link",
+		  "size" : "1200x628 pixels",
+          "restrictions" : "You can include text in images on Twitter ads, if you wish.",
+          "notes" : "none"
+      }
+    }
+  } 	 
+}
+}

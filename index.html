@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Greg's Final Project</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+	  
+<div class="left-half">
+  
+	<article>	
+    	<h1>Ad Copy Specifications by Platform and Type</h1>
+	
+	<div id="selectPlatformDiv" class="platformDiv select-menu">
+	<fieldset>
+    <label for="selectPlatform">First, select an Advertising Platform:</label>
+    <select name="selectPlatform" id="selectPlatform" class="platformSelect">
+      <option selected="selected" value="Select"> - select - </option>
+	  <option value="Facebook">Facebook</option>
+      <option value="Instagram">Instagram</option>
+      <option value="LinkedIn">LinkedIn</option>
+      <option value="Google">Google Ads</option>
+	  <option value="Twitter">Twitter</option>	
+    </select> 
+	</fieldset>	
+	</div>	  
+   		
+	<div id="selectFormatFacebookDiv" class="formatDiv select-menu">	
+	<fieldset>
+    <label for="adFormatFacebook">Then, select an ad format:</label>
+    <select name="adFormatFacebook" id="adFormatFacebook" class="adFormatSelect">
+      <option selected="selected" value="Select"> - select - </option>
+	  <option value="Carousel">Carousel Ad</option>
+      <option value="SingleImage">Single Image Ad</option>
+      <option value="Video">Video Ad</option>
+    </select> 
+	</fieldset>	
+	</div>		
+		
+	<div id="selectFormatInstagramDiv" class="formatDiv select-menu">	
+	<fieldset>
+    <label for="adFormatInstagram">Then, select an ad format:</label>
+    <select name="adFormatInstagram" id="adFormatInstagram" class="adFormatSelect">
+      <option selected="selected" value="Select"> - select - </option>
+	  <option value="Carousel">Carousel Ad</option>
+	  <option value="SingleImage">Horizontal Single Image Ad</option>
+      <option value="Vertical">Vertical Image Ad</option>
+      <option value="Video">Video</option>
+    </select> 
+	</fieldset>
+	</div>
+	
+	<div id="selectFormatLinkedInDiv" class="formatDiv select-menu">	
+	<fieldset>
+    <label for="adFormatLinkedIn">Then, select an ad format:</label>
+    <select name="adFormatLinkedIn" id="adFormatLinkedIn" class="adFormatSelect">
+      <option selected="selected"> - select - </option>
+	  <option value="Carousel">Carousel Ad</option>
+	  <option value="SingleImage">Single Image Ad</option>
+	  <option value="Video">Video Ad</option>
+    </select> 
+	</fieldset>	
+	</div>		
+		
+	<div id="selectFormatGoogleDiv" class="formatDiv select-menu">	
+	<fieldset>
+    <label for="adFormatGoogle">Then, select an ad format:</label>
+    <select name="adFormatGoogle" id="adFormatGoogle" class="adFormatSelect">
+      <option selected="selected"> - select - </option>
+	  <option value="Banner">Banner/Display Ads</option>
+	  <option value="Video">YouTube Video Ad</option>
+	  <option value="Search">Search Text Ad</option>	
+    </select> 
+	</fieldset>	
+	</div>			
+	
+		
+	<div id="selectFormatTwitterDiv" class="formatDiv select-menu">	
+	<fieldset>
+    <label for="adFormatTwitter">Then, select an ad format:</label>
+    <select name="adFormatTwitter" id="adFormatTwitter" class="adFormatSelect">
+      <option selected="selected"> - select - </option>
+	  <option value="SingleImage">Single Image Ad</option>
+    </select> 
+	</fieldset>	
+	</div>		
+		
+		
+  </article>
+</div>	  
+ 
+
+	
+<div class="right-half"> 
+    
+  	<article>
+      <h1 id="rightHeader">Please make the appropriate selections on the left hand side</h1>
+		
+      <div id="adSpecsArea" class="adSpecsDiv">
+	  	<p id="copyLimitPara"></p>
+		<p id="sizePara"></p>
+		<p id="restrictionsPara"></p>
+		<p id="notesPara"></p>  
+	  </div>
+		
+<!--
+	  <div id="adSpecsFacebookCarouselDiv" class="adSpecsDiv">
+	  <p>800x800 pixel images with no text</p>
+	  </div>
+		
+	  <div id="adSpecsFacebookSingleImageDiv" class="adSpecsDiv">
+	  <p>This is the content for a Facebook Single Image Ad</p>
+	  </div>
+		
+	  <div id="adSpecsFacebookVideoDiv" class="adSpecsDiv">
+	  <p>This is the content for a Facebook Video Ad</p>
+	  </div>		
+-->
+		
+    </article>
+</div>
+
+	  
+	<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="js/scripts.js"></script>
+  </body>
+</html>
